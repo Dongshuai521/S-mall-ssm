@@ -25,6 +25,7 @@ public class ProductTest extends AbstractJUnit4SpringContextTests {
     public void getProduct() throws Exception {
         productService.get(5);
         System.out.println("test");
+        //test
         BeanFactory bf = new XmlBeanFactory(new ClassPathResource(""));
     }
 }
